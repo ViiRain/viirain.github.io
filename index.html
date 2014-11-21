@@ -19,32 +19,36 @@
         <![endif]-->
 
         <div class="container">
-            <div class="header">
+            <div class="header wow fadeInDown" data-wow-delay="300ms">
               <h1>Vii Rain</h1>
             </div>
 
-            <div class="row">
+            <div class="row wow zoomIn" data-wow-delay="600ms">
               <img id="photo-anushka" src="images/anushka.jpg" alt="Anushka Aritri Picture" class="center-block img-circle">
             </div>
 
             <div class="row social">
-              <p>Follow me on:</p>
-              <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/vie.la.vii">
+              <p class="wow fadeInUp" data-wow-delay="900ms">Follow me on:</p>
+              <a class="btn btn-social-icon btn-facebook wow zoomIn" data-wow-delay="1100ms" href="https://www.facebook.com/vie.la.vii">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a class="btn btn-social-icon btn-twitter" href="https://www.twitter.com/vii_rain">
+              <a class="btn btn-social-icon btn-twitter wow zoomIn" data-wow-delay="1300ms" href="https://www.twitter.com/vii_rain">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a class="btn btn-social-icon btn-google-plus" href="https://plus.google.com/105598192824253058170/posts">
+              <a class="btn btn-social-icon btn-google-plus wow zoomIn" data-wow-delay="1500ms" href="https://plus.google.com/105598192824253058170/posts">
                 <i class="fa fa-google-plus"></i>
               </a>
-              <a class="btn btn-social-icon btn-linkedin" href="https://bd.linkedin.com/in/anushkaaritri">
+              <a class="btn btn-social-icon btn-linkedin wow zoomIn" data-wow-delay="1700ms" href="https://bd.linkedin.com/in/anushkaaritri">
                 <i class="fa fa-linkedin"></i>
               </a>
             </div>
 
-            <div class="footer">
-              <p>&copy; Vii Rain 2014</p>
+            <div class="row unknit wow rollIn" data-wow-delay="2000ms">
+              <a class="center-block" href="http://unknit.net"><img id="logo-unknit" width="300" height="107" src="images/unknit.png" alt="Unknit Logo"></a>
+            </div>
+
+            <div class="footer" data-wow-delay="2300ms">
+              <p class="wow fadeInUp">&copy; Vii Rain 2014</p>
             </div>
           </div>
 
@@ -61,6 +65,11 @@
           <script src="scripts/vendor.js"></script>
 
           <script src="scripts/plugins.js"></script>
+
+          <script src="bower_components/wow/dist/wow.min.js"></script>
+          <script>
+            new WOW().init();
+          </script>
 
           <script src="scripts/main.js"></script>
         </body>
